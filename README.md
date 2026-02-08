@@ -14,6 +14,15 @@ Desarrollar una versión funcional inicial de la aplicación que permita:
 - La estructura base para la gestión de citas médicas
 
 ---
+## Historias de Usuario implementadas (Sprint 1)
+| Historia de Usuario | Descripción | Archivo(s) relacionados |
+|---------------------|-------------|--------------------------|
+| HU-01 | Como usuario, quiero visualizar una interfaz inicial del sistema para confirmar que la aplicación funciona correctamente. | `src/App.jsx`, `src/main.jsx` |
+| HU-02 | Como usuario, quiero interactuar con un componente dinámico para validar la respuesta de la aplicación. | `src/App.jsx` |
+
+Cada historia de usuario implementada en este Sprint se refleja directamente en los componentes desarrollados en React.  
+El archivo `App.jsx` concentra la lógica principal de la interfaz, mientras que `main.jsx` se encarga del montaje de la aplicación en el DOM, permitiendo la visualización y la interacción básica del sistema.
+
 
 ## Metodología
 El proyecto fue desarrollado siguiendo el marco de trabajo **Scrum**, aplicando los siguientes elementos:
@@ -52,4 +61,9 @@ La aplicación fue ejecutada en un entorno local mediante un servidor de desarro
 
 ## Repositorio
 El código fuente del proyecto se encuentra alojado en GitHub y permite evidenciar el desarrollo incremental conforme a Scrum.
+## Evidencia del Sprint
+
+El cumplimiento de las historias de usuario se respalda mediante el commit:
+
+- **Sprint 1 - Proyecto React funcionando**
 
