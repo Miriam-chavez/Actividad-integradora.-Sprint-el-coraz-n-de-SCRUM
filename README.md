@@ -1,16 +1,55 @@
-# React + Vite
+# Actividad integradora: Sprint, el corazón de Scrum
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción del proyecto
+Este proyecto corresponde al desarrollo del Sprint 1 de una aplicación web realizada con React, utilizando el framework Vite, como parte de la actividad integradora sobre la metodología Scrum.
 
-Currently, two official plugins are available:
+La aplicación forma parte del proyecto **Salud Viva App**, cuyo objetivo es mejorar la gestión de citas médicas mediante una solución tecnológica centrada en el usuario.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Objetivo del Sprint
+Desarrollar una versión funcional inicial de la aplicación que permita:
+- El registro de usuarios
+- La autenticación básica
+- La estructura base para la gestión de citas médicas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Metodología
+El proyecto fue desarrollado siguiendo el marco de trabajo **Scrum**, aplicando los siguientes elementos:
+- Product Backlog priorizado
+- Sprint Planning
+- Incremento funcional al finalizar el Sprint
+- Control de versiones mediante Git y GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Historias de Usuario implementadas (Sprint 1)
+
+- **HU-01:** Registro de paciente  
+- **HU-02:** Inicio de sesión  
+- **HU-03:** Agendado de citas médicas (estructura base)
+
+Estas historias fueron priorizadas por su valor para la operación básica del sistema.
+
+---
+
+## Tecnologías utilizadas
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
+- Git
+- GitHub
+
+---
+
+## Funcionamiento del proyecto
+La aplicación fue ejecutada en un entorno local mediante un servidor de desarrollo, demostrando el correcto funcionamiento del código y la interacción de los componentes desarrollados.
+
+---
+
+## Repositorio
+El código fuente del proyecto se encuentra alojado en GitHub y permite evidenciar el desarrollo incremental conforme a Scrum.
+
