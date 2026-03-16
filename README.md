@@ -1,47 +1,19 @@
-# Actividad integradora: Sprint, el corazón de Scrum
+# Plataforma Web Educativa - Sprint 1
 
 ## Descripción del proyecto
-Este proyecto corresponde al desarrollo del Sprint 1 de una aplicación web realizada con React, utilizando el framework Vite, como parte de la actividad integradora sobre la metodología Scrum.
+Este proyecto corresponde al desarrollo del Sprint 1 de una plataforma web educativa realizada con React y Vite, como parte de la actividad integradora sobre la metodología Scrum.
 
-La aplicación forma parte del proyecto **Salud Viva App**, cuyo objetivo es mejorar la gestión de citas médicas mediante una solución tecnológica centrada en el usuario.
+La aplicación tiene como objetivo ofrecer contenido educativo organizado para apoyar el aprendizaje de los usuarios mediante videos por categoría y artículos descargables en PDF.
 
----
+## Objetivo del Sprint 1
+Desarrollar una versión funcional inicial de la plataforma que permita:
+- Acceder a videos educativos organizados por categoría
+- Descargar artículos educativos en formato PDF
+- Mostrar una interfaz base funcional y responsive
 
-## Objetivo del Sprint
-Desarrollar una versión funcional inicial de la aplicación que permita:
-- El registro de usuarios
-- La autenticación básica
-- La estructura base para la gestión de citas médicas
-
----
-## Historias de Usuario implementadas (Sprint 1)
-| Historia de Usuario | Descripción | Archivo(s) relacionados |
-|---------------------|-------------|--------------------------|
-| HU-01 | Como usuario, quiero visualizar una interfaz inicial del sistema para confirmar que la aplicación funciona correctamente. | `src/App.jsx`, `src/main.jsx` |
-| HU-02 | Como usuario, quiero interactuar con un componente dinámico para validar la respuesta de la aplicación. | `src/App.jsx` |
-
-Cada historia de usuario implementada en este Sprint se refleja directamente en los componentes desarrollados en React.  
-El archivo `App.jsx` concentra la lógica principal de la interfaz, mientras que `main.jsx` se encarga del montaje de la aplicación en el DOM, permitiendo la visualización y la interacción básica del sistema.
-
-
-## Metodología
-El proyecto fue desarrollado siguiendo el marco de trabajo **Scrum**, aplicando los siguientes elementos:
-- Product Backlog priorizado
-- Sprint Planning
-- Incremento funcional al finalizar el Sprint
-- Control de versiones mediante Git y GitHub
-
----
-
-## Historias de Usuario implementadas (Sprint 1)
-
-- **HU-01:** Registro de paciente  
-- **HU-02:** Inicio de sesión  
-- **HU-03:** Agendado de citas médicas (estructura base)
-
-Estas historias fueron priorizadas por su valor para la operación básica del sistema.
-
----
+## Historias de usuario implementadas
+- HU-01: Como estudiante quiero acceder a videos educativos organizados por categoría para facilitar el aprendizaje visual.
+- HU-02: Como estudiante quiero consultar artículos educativos descargables para complementar mi aprendizaje.
 
 ## Tecnologías utilizadas
 - React
@@ -52,18 +24,18 @@ Estas historias fueron priorizadas por su valor para la operación básica del s
 - Git
 - GitHub
 
----
+## Estructura del proyecto
+- `src/App.jsx`: estructura principal de la interfaz
+- `src/main.jsx`: punto de entrada de la aplicación
+- `public/`: recursos estáticos
+- `reuniones-scrum.md`: documentación de reuniones SCRUM
 
-## Funcionamiento del proyecto
-La aplicación fue ejecutada en un entorno local mediante un servidor de desarrollo, demostrando el correcto funcionamiento del código y la interacción de los componentes desarrollados.
-
----
+## Evidencia del Sprint
+El Sprint 1 incluye un incremento funcional con:
+- interfaz para videos educativos por categoría
+- sección de artículos PDF descargables
+- estructura base de navegación
 
 ## Repositorio
-El código fuente del proyecto se encuentra alojado en GitHub y permite evidenciar el desarrollo incremental conforme a Scrum.
-## Evidencia del Sprint
-
-El cumplimiento de las historias de usuario se respalda mediante el commit:
-
-- **Sprint 1 - Proyecto React funcionando**
+Este repositorio documenta el avance incremental del proyecto conforme a Scrum.
 
