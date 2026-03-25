@@ -23,6 +23,30 @@ function App() {
 
       <h2>Ejercicios interactivos</h2>
       <p>En próximos Sprints se integrarán ejercicios interactivos.</p>
+    <section>
+  <h2>Ejercicios interactivos</h2>
+  <p>Responde preguntas para evaluar tu aprendizaje.</p>
+  <button>Comenzar ejercicio</button>
+</section>
+
+<section>
+  <h2>Registro de usuario</h2>
+  <form>
+    <input type="text" placeholder="Nombre de usuario" />
+    <input type="email" placeholder="Correo electrónico" />
+    <input type="password" placeholder="Contraseña" />
+    <button type="submit">Registrarse</button>
+  </form>
+</section>
+
+<section>
+  <h2>Iniciar sesión</h2>
+  <form>
+    <input type="email" placeholder="Correo electrónico" />
+    <input type="password" placeholder="Contraseña" />
+    <button type="submit">Entrar</button>
+  </form>
+</section>
     </div>
   )
 }
